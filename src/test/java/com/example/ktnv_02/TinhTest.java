@@ -26,4 +26,12 @@ class TinhTest {
 
         Assertions.assertEquals(exp, act);
     }
+    @Test
+    void tinhTongCoSo_0() {
+
+        int exp = -15;
+        int act = tinh.tinhTong(new int[] {-1, -2, 0, -4, -6, -2});
+
+        Assertions.assertEquals(exp, act);
+    }
 }
