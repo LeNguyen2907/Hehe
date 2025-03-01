@@ -17,4 +17,13 @@ class TinhTest {
 
         Assertions.assertEquals(exp, act);
     }
+
+    @Test
+    void tinhTongSoAm() {
+
+        int exp = -15;
+        int act = tinh.tinhTong(new int[] {-1, -2, -4, -6, -2});
+
+        Assertions.assertEquals(exp, act);
+    }
 }
