@@ -10,4 +10,13 @@ public class Tinh {
         }
         return sum;
     }
+
+    public int tinhHieu (int [] arr) {
+
+        int sum = 0;
+        for (int i: arr) {
+            sum -= i;
+        }
+        return sum;
+    }
 }
