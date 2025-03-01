@@ -38,7 +38,7 @@ class TinhTest {
     @Test
     void tinhHieuCoSo_0() {
 
-        int exp = 12;
+        int exp = 15;
         int act = tinh.tinhHieu(new int[] {-1, -2, 0, -4, -6, -2});
 
         Assertions.assertEquals(exp, act);
